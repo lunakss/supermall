@@ -1,7 +1,8 @@
 @import "./normalize.css";
 
+/* :root -> 获取根元素html */
 :root {
-  --color-text: #666;
+  --color-text: #666; /* css中定义变量，类似于全局键值对，使用的话，组件style内var(--color-text) */
   --color-high-text: #ff5777;
   --color-tint: #ff8198;
   --color-background: #fff;
